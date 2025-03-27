@@ -20,6 +20,8 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .menu {
@@ -40,6 +42,29 @@ body {
 }
 
 .footer {
-    background-color: rgb(107, 136, 141);
+    background-color: rgb(183, 204, 207);
     min-height: 150px;
+}
+
+.contato {
+    display: inline-block;
+    width: 48%;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.123);
+    margin: 0px;
+    text-align: center;
+    vertical-align: top;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.divfooter {
+    display: inline-block;
+    width: 478px;
+    height: 180px;
+    background-color: rgb(183, 204, 207);
+    margin: 0px;
+    text-align: center;
 }
