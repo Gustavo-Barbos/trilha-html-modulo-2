@@ -14,6 +14,34 @@
         margin: 0px;
         text-align: center;
     }
+
+    .indentado {
+        text-indent: 10%;
+    }
+
+    table {
+        -webkit-box-shadow: 11px 11px 5px 0px rgba(183, 201, 183, 0.6);
+        -moz-box-shadow: 11px 11px 5px 0px rgba(169, 182, 169, 0.6);
+        box-shadow: 11px 11px 5px 0px rgba(184, 197, 184, 0.6);
+        border: solid 1px gray;
+        width: 80%;
+        margin: auto;
+        border-collapse: separate;
+    }
+
+    table thead th {
+        background-color: rgba(43, 179, 25, 0.767);
+        color: rgb(0, 0, 0);
+    }
+
+    table tbody tr:nth-child(even) td {
+        background-color: #f1f1f1;
+    }
+
+    table tbody tr:hover td {
+        background-color: rgba(31, 20, 179, 0.24);
+        cursor: pointer;
+    }
 </style>
 
 <head>
@@ -49,7 +77,7 @@
 
         <div class="main">
             <div class="header">
-                <img src="https://petpillow.com.br/wp-content/uploads/2018/09/animais-domesticos-destaque-1024x330.jpg"
+                <img src="https://t3.ftcdn.net/jpg/04/81/32/08/360_F_481320874_0ySypkY4mZYl4jEmCOGXMbPgVhocmw2t.jpg"
                     alt="Diversos animais de estimação alinhados, incluindo um furão, um gato siamês, um dálmata, um aquário com peixes e pássaros, um cachorro pastor, um gato de pelos longos, um coelho, um porquinho-da-índia e um pequeno rato."
                     width=" 1000" height="250">
 
@@ -57,14 +85,142 @@
             </div>
 
             <div class="content">
-                <h1 id="Sobre"> <strong> Home Page - Amor de Pet</strong> 🐾</h1>
-                <p> A <strong> Amor de Pet </strong> é uma clínica veterinária dedicada ao <strong> bem-estar</strong> e
-                    <strong> saúde</strong> dos
-                    animais. Oferecemos
-                    atendimento especializado, <strong> exames, vacinas e serviços de emergência </strong> para garantir
-                    o melhor cuidado
-                    para o seu pet. Aqui, cada animal é tratado com carinho e dedicação!
+                <h1 id="atendimento"> <strong> Horário de atendimento - Amor de Pet</strong> 🐾</h1>
+                <p> Na <strong> Amor de Pet </strong>, cuidamos do seu amigo de quatro patas com todo o carinho e
+                    profissionalismo que ele
+                    merece! Oferecemos serviços completos para garantir a saúde e o bem-estar do seu pet:
                 </p>
+                <h3>
+                    <strong> Nossos Serviços </strong>
+                </h3>
+                <ul>
+                    <li>
+                        🐾 <strong><u> Medicina Preventiva </u></strong> – Acompanhamento veterinário para manter a
+                        saúde do seu pet sempre em
+                        dia.
+                    </li>
+                    <li>
+                        💉 <u><strong> Vacinação </u></strong> – Proteção contra doenças com vacinas seguras e de
+                        qualidade.
+                    </li>
+                    <li>
+                        🩺 <u><strong> Exames Laboratoriais </u></strong> – Diagnóstico preciso para um tratamento
+                        eficaz.
+                    </li>
+                    <li>
+                        🔪 <u><strong> Cirurgias </u></strong> – Procedimentos cirúrgicos com segurança e tecnologia
+                        avançada.
+                    </li>
+                    <li>
+                        ✂️ <u><strong> Estética Animal </u></strong> – Banho, tosa e cuidados especiais para deixar seu
+                        pet ainda mais bonito!
+                    </li>
+                </ul>
+                <p>
+                    Cuidamos do seu pet com amor e dedicação, porque ele faz parte da sua família! 🐶🐱💙
+                </p>
+                <h3>
+                    <strong> Horários e preços </strong>
+                </h3>
+
+                <table>
+                    <caption><strong>Tabela de Preços - Amor de Pet</strong></caption>
+
+                    <thead>
+                        <tr>
+                            <th title="Tipo de serviço oferecido">Serviços</th>
+                            <th title="Valores de segunda a quarta">Segunda a Quarta</th>
+                            <th title="Valores de quinta e sexta">Quinta a Sábado</th>
+                            <th title="Valores de sábado e domingo">Domingos e Feriados</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td title="">
+                                Medicina Preventiva
+                            </td>
+                            <td title="">
+                                R$ 80,00
+                            </td>
+                            <td title="">
+                                R$ 90,00
+                            </td>
+                            <td title="">
+                                R$ 100,00
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td title="">
+                                Vacinação
+                            </td>
+                            <td title="">
+                                R$ 50,00
+                            </td>
+                            <td title="">
+                                R$ 55,00
+                            </td>
+                            <td title="">
+                                R$ 60,00
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td title="">
+                                Exames Laboratoriais
+                            </td>
+                            <td title="">
+                                R$ 100,00
+                            </td>
+                            <td title="">
+                                R$ 110,00
+                            </td>
+                            <td title="">
+                                R$ 120,00
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td title="">
+                                Cirurgias
+                            </td>
+                            <td title="">
+                                R$ 500,00
+                            </td>
+                            <td title="">
+                                R$ 550,00
+                            </td>
+                            <td title="">
+                                R$ 6000,00
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td title="">
+                                Estética
+                            </td>
+                            <td title="">
+                                R$ 70,00
+                            </td>
+                            <td title="">
+                                R$ 80,00
+                            </td>
+                            <td title="">
+                                R$ 90,00
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+
+                </table>
+                <p class="indentado">
+                    <small><i><strong>Descontos especiais:</strong> Clientes que agendarem consultas com 2 dias de
+                            antecedencia
+                            recebem <mark> 10% de desconto! </mark></i></small>
+                </p>
+
 
             </div>
 
